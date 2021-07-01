@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Hover On Image</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="borders">
+        <div id="bigImage" >
+            <div class="med">
+           <img src="" class="pro_image"alt="">
+           <p id="pipp"></p>
+        </div>
+           <!-- <p id="pip">Hover on an image and see what happens!!!</p> -->
+
+    </div>
+
+        <div class="flex_images">
+            <div class="flexBoxes active" onmouseover="changeImage(this);">
+                <img id="kelison"  src="mred.jpeg" alt="This a forest full of wood and wild animals">
+            </div>
+            <div class="flexBoxes" onmouseover="changeImage(this);">
+                <img id="kelison"  src="photo1.jpeg" alt="A woman drinking">
+            </div>
+            <div class="flexBoxes" onmouseover="changeImage(this);" >
+                <img id="kelison"  src="img_snow_white.jpg" alt="This guy's feet yuck">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
